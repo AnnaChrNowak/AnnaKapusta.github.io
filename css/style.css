@@ -45,6 +45,14 @@
   border-top-right-radius: 0px;
 }
 
+.text-project{
+  font-size: 1.2em;
+}
+
+.other {
+  font-weight: bold;
+  font-size: 1.7em;
+}
 
 @media (min-width: 753px) {
   .port-item {
