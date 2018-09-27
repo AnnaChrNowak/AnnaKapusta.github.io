@@ -1,0 +1,94 @@
+body{
+  background: #e4e4e4;
+}
+
+.my-header {
+  background: url("../images/background1.jpg");
+  opacity: 0.8;
+}
+
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.small-text {
+  font-weight: bold;
+}
+
+.bg-primary {
+  background: #05668D!important;
+}
+
+.bg-blue{
+  background: #0099ff;
+}
+
+.bg-sea{
+  background: #028090;
+}
+
+.bg-success{
+  background: #00A896!important;
+}
+
+.bg-warning {
+  background: #02C39A!important;
+}
+
+.bg-danger {
+  background: #d2de75 !important;
+}
+
+.bg-yellow{
+  background: #f3f798;
+}
+
+.text-sea{
+  color: #028090;
+}
+
+.text-success {
+  color: #00A896!important;
+}
+
+.bg-red{
+  background: #800000;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.my-navigation {
+  float: left;
+}
+
+.port-item:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.go-codepen {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 100!important;
+  border-top-right-radius: 0px;
+}
+
+.text-project{
+  font-size: 1.2em;
+}
+
+.other {
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.extra {
+  height: 50px;
+}
+
+

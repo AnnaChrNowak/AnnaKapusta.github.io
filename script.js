@@ -12,18 +12,23 @@ var mySpinner = ' <!--Spinner-->\n' +
     '  </div>';
 
 
-// Collapse Header
-$('.port-item').click(function() {
-  $('.collapse').collapse('hide');
-});
-
-
 // Toggle Pictures
 $(document).on('click', '[data-toggle="lightbox"]', function(e) {
   var linkToCodepen = $(this).attr('link-to-codepen');
   e.preventDefault();
   $(this).ekkoLightbox();
   $('.ekko-lightbox-container').prepend(button.replace('link', linkToCodepen));
+
+});
+
+//Toggle content
+
+$('.port-item').click(function () {
+    let oldtarget_id = $('.show').attr('id');
+    $("#"+oldtarget_id).removeClass('show').css('display', 'none');
+
+    let target = $(this).attr('data-target');
+    $(target).fadeIn("slow").removeClass('d-none').addClass('show');
 
 })
 
