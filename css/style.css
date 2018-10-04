@@ -41,9 +41,6 @@ body{
   background: #d2de75 !important;
 }
 
-.bg-yellow{
-  background: #f3f798;
-}
 
 .text-sea{
   color: #028090;
@@ -90,35 +87,5 @@ body{
 .extra {
   height: 50px;
 }
-
-/*@media (min-width: 753px) {*/
-  /*.port-item {*/
-    /*padding: 0.5em!important;*/
-  /*}*/
-/*}*/
-
-/*@media (min-width: 960px) {*/
-  /*.port-item {*/
-    /*padding: 0.7em!important;*/
-  /*}*/
-/*}*/
-
-/*@media (min-width: 961px) {*/
-  /*.port-item {*/
-    /*padding: 0.7em!important;*/
-  /*}*/
-/*}*/
-
-/*@media (min-width: 977px) {*/
-  /*.port-item {*/
-    /*padding: 1.1em!important;*/
-  /*}*/
-/*}*/
-
-/*@media (min-width: 1199px) {*/
-  /*.port-item {*/
-    /*padding: 2.5em!important;*/
-  /*}*/
-/*}*/
 
 
