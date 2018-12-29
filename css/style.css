@@ -88,4 +88,38 @@ body{
   height: 50px;
 }
 
+.modal {
+  position: absolute;
+  height: 100vh;
+}
 
+.modal-dialog {
+  position: relative;
+}
+
+.modal-content {
+  border-radius: .3rem;
+  position: absolute;
+  bottom: 0;
+  top: 40vh;
+  min-height: 140px;
+  border: none;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transform: translateY(-50%);
+}
+
+.modal-header {
+  background: #0066bc;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  color: white;
+}
+
+.modal-header button {
+  color: white;
+  transform: translateY(-4px);
+}
+
+.title-error {
+   background: #c50000;
+}
